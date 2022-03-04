@@ -1,10 +1,12 @@
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TestsProblema1 {
+public class TestsProblema2 {
     @Test
-    public void test_problema_1(){
-        Problema1 problema1 = new Problema1();
-        problema1.cadena_de_numeros();
+    public void test_problema_2(){
+        Problema2 problema2 = new Problema2();
+        int numero_inicial = 4;
+        int numero_final = 33;
+        problema2.cadena_de_numeros(numero_inicial, numero_final);
+
     }
 }
